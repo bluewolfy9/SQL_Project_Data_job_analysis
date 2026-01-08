@@ -1,37 +1,37 @@
 ### Introduction 
 Welcome to my Data Job Market Analysis project. This study focuses on the Data Analyst landscape to identify top-paying roles, high-demand skills, and the strategic intersection where salary potential meets market stability.
 
-    Explore the Analysis: Dive into the project_sql folder to view the queries powering these insights.
+Explore the Analysis: Dive into the project_sql folder to view the queries powering these insights.
 
 ## Background 
 This project originated from a need to navigate the data career path more strategically. By pinpointing the most lucrative and sought-after technical skills, I aimed to create a data-driven roadmap for finding optimal career opportunities. The dataset—sourced from my SQL Course—provides a comprehensive look at job titles, compensation, geographic trends, and required competencies.
 
 ## Research Questions
 
-    Which Data Analyst roles offer the highest compensation?
+Which Data Analyst roles offer the highest compensation?
 
-    What specific skills do these premium roles require?
+What specific skills do these premium roles require?
 
-    Which skills are currently most in-demand across the industry?
+Which skills are currently most in-demand across the industry?
 
-    How do specific skills correlate with salary increases?
+How do specific skills correlate with salary increases?
 
-    What are the "optimal" skills to learn (high demand + high pay)?
+What are the "optimal" skills to learn (high demand + high pay)?
 
 ### Technical Stack
 
-    SQL: The core engine used for data extraction and analytical querying.
+* SQL: The core engine used for data extraction and analytical querying.
 
-    PostgreSQL: The primary database management system used to organize job posting data.
+ * PostgreSQL: The primary database management system used to organize job posting data.
 
-    Visual Studio Code: My integrated development environment for writing and executing scripts.
+* Visual Studio Code: My integrated development environment for writing and executing scripts.
 
-    Git & GitHub: Utilized for version control, documentation, and sharing my findings.
+* Git & GitHub: Utilized for version control, documentation, and sharing my findings.
 
 ## The Analysis 
-    My approach was to treat each research question as a specific data problem. I utilized advanced SQL techniques to extract actionable insights from the dataset:
+My approach was to treat each research question as a specific data problem. I utilized advanced SQL techniques to extract actionable insights from the dataset:
 
-    Top-Paying Data Analyst Jobs To identify the most lucrative opportunities, I queried job roles based on average annual compensation. By filtering for remote-only positions, I focused on the highest-paying, flexible roles that are currently shaping the modern data landscape. This query uncovers which companies and titles offer the best financial ROI.
+Top-Paying Data Analyst Jobs To identify the most lucrative opportunities, I queried job roles based on average annual compensation. By filtering for remote-only positions, I focused on the highest-paying, flexible roles that are currently shaping the modern data landscape. This query uncovers which companies and titles offer the best financial ROI.
 ```sql
     SELECT
     job_id,
@@ -55,13 +55,13 @@ LIMIT 10;
 ```
 ## Key Findings:
  ### 1. Top-Paying Data 
- Analyst Roles The analysis of 2023–2024 job postings reveals a lucrative landscape for data professionals, characterized by three main trends:
+ * Analyst Roles The analysis of 2023–2024 job postings reveals a lucrative landscape for data professionals, characterized by three main trends:
 
-    Significant Compensation Ceiling: Top-tier salaries range from $184,000 to $650,000. This wide interval suggests that while entry-level pay is stable, specialized roles and leadership positions offer exponential growth potential.
+* Significant Compensation Ceiling: Top-tier salaries range from $184,000 to $650,000. This wide interval suggests that while entry-level pay is stable, specialized roles and leadership positions offer exponential growth potential.
 
-    Cross-Industry Demand: High-paying opportunities are not limited to Big Tech. Major players across finance (SmartAsset), telecommunications (AT&T), and social media (Meta) are competing for top talent, proving the value of data analytics in every sector.
+* Cross-Industry Demand: High-paying opportunities are not limited to Big Tech. Major players across finance (SmartAsset), telecommunications (AT&T), and social media (Meta) are competing for top talent, proving the value of data analytics in every sector.
 
-    Specialization vs. Generalization: The variety in job titles—ranging from Data Analyst to Director of Analytics—highlights a clear career progression. Higher salaries are closely tied to specialized expertise and strategic management responsibilities.
+* Specialization vs. Generalization: The variety in job titles—ranging from Data Analyst to Director of Analytics—highlights a clear career progression. Higher salaries are closely tied to specialized expertise and strategic management responsibilities.
 
 ![alt text](top_paying_job_skills_viz.png)
 Bar graph visualizing the salary for the top 10 salaries for data analysts; ChatGPT generated this graph from my SQL query results
