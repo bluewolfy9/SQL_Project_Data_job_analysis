@@ -1,4 +1,4 @@
-### Introduction 
+# Introduction 
 Welcome to my Data Job Market Analysis project. This study focuses on the Data Analyst landscape to identify top-paying roles, high-demand skills, and the strategic intersection where salary potential meets market stability.
 
 Explore the Analysis: Dive into the project_sql folder to view the queries powering these insights.
