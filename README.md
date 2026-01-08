@@ -269,13 +269,13 @@ LIMIT 25;
 ### Insights
 🏁 Final Project Insights
 
-    1. Compensation Ceiling: Remote Data Analyst roles show a massive salary ceiling, peaking at $650,000, highlighting the high value of specialized data expertise.
+1. Compensation Ceiling: Remote Data Analyst roles show a massive salary ceiling, peaking at $650,000, highlighting the high value of specialized data expertise.
 
-    2. The Power of SQL: SQL is the ultimate "double threat"—it is both the most demanded skill by employers and a requirement for the highest-paying roles.
+2. The Power of SQL: SQL is the ultimate "double threat"—it is both the most demanded skill by employers and a requirement for the highest-paying roles.
 
-    3. Specialized Premium: Specialized skills like SVN and Solidity command the highest average salaries, proving that niche expertise leads to premium pay.
+3. Specialized Premium: Specialized skills like SVN and Solidity command the highest average salaries, proving that niche expertise leads to premium pay.
 
-    4. Strategic Learning: For maximum market value, SQL offers the best return on investment, while combining it with cloud or niche tools unlocks top-tier compensation.
+4. Strategic Learning: For maximum market value, SQL offers the best return on investment, while combining it with cloud or niche tools unlocks top-tier compensation.
 
 ## Closing Thoughts
 
