@@ -1,22 +1,24 @@
-# Introduction 
+# Data Analyst Job Market Analysis
+
+## Introduction 
 Welcome to my Data Job Market Analysis project. This study focuses on the Data Analyst landscape to identify top-paying roles, high-demand skills, and the strategic intersection where salary potential meets market stability.
 
-Explore the Analysis: Dive into the project_sql folder to view the queries powering these insights.
+Explore the Analysis:  🔍 **Looking for the SQL queries?** Check them out in the [`project_sql`](./project_sql) folder.
 
 ## Background 
-This project originated from a need to navigate the data career path more strategically. By pinpointing the most lucrative and sought-after technical skills, I aimed to create a data-driven roadmap for finding optimal career opportunities. The dataset—sourced from my SQL Course—provides a comprehensive look at job titles, compensation, geographic trends, and required competencies.
+This project originated from a need to navigate the data career path more strategically. By pinpointing the most lucrative and sought-after technical skills, I aimed to create a data-driven roadmap for finding optimal career opportunities. The dataset—sourced from **Luke Barousse's** SQL Course—provides a comprehensive look at job titles, compensation, geographic trends, and required competencies.
 
 ## Research Questions
 
-Which Data Analyst roles offer the highest compensation?
+1. Which Data Analyst roles offer the highest compensation?
 
-What specific skills do these premium roles require?
+2. What specific skills do these premium roles require?
 
-Which skills are currently most in-demand across the industry?
+3. Which skills are currently most in-demand across the industry?
 
-How do specific skills correlate with salary increases?
+4. How do specific skills correlate with salary increases?
 
-What are the "optimal" skills to learn (high demand + high pay)?
+5. What are the "optimal" skills to learn (high demand + high pay)?
 
 ### Technical Stack
 
@@ -30,6 +32,8 @@ What are the "optimal" skills to learn (high demand + high pay)?
 
 ## The Analysis 
 My approach was to treat each research question as a specific data problem. I utilized advanced SQL techniques to extract actionable insights from the dataset:
+
+ ### 1. Top-Paying Data 
 
 Top-Paying Data Analyst Jobs To identify the most lucrative opportunities, I queried job roles based on average annual compensation. By filtering for remote-only positions, I focused on the highest-paying, flexible roles that are currently shaping the modern data landscape. This query uncovers which companies and titles offer the best financial ROI.
 ```sql
@@ -54,7 +58,6 @@ ORDER BY
 LIMIT 10;
 ```
 ## Key Findings:
- ### 1. Top-Paying Data 
  * Analyst Roles The analysis of 2023–2024 job postings reveals a lucrative landscape for data professionals, characterized by three main trends:
 
 * Significant Compensation Ceiling: Top-tier salaries range from $184,000 to $650,000. This wide interval suggests that while entry-level pay is stable, specialized roles and leadership positions offer exponential growth potential.
